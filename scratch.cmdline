@@ -1,0 +1,16 @@
+'''
+Program to illustrate stacks and queues - 1D array
+'''
+
+def stack(scores):
+    score=0
+    for i in range(3):
+        socre = int(input("Input score:"))
+        scores.extend(score)
+    print("Olds cores:", scores)
+    scores.pop()
+    print("New scores", scores)
+
+#main
+scores = [60,70,80]
+stack(scores)#call subrountine
